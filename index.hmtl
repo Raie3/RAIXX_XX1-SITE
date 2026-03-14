@@ -1,0 +1,101 @@
+ 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raixx_xx1 - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones Font Awesome para o menu hambúrguer e botões de redes sociais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">raixx_xx1</h1>
+            <nav class="main-nav">
+                <button class="hamburger" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Início</a></li>
+                    <li><a href="#trabalhos" class="nav-link">Trabalhos</a></li>
+                    <li><a href="#instagram" class="nav-link">Instagram</a></li>
+                    <li><a href="#sobre-mim" class="nav-link">Sobre Mim</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Início -->
+        <section id="inicio" class="content-section active">
+            <div class="container">
+                <h2>Bem-vindo ao meu portfólio, raixx_xx1!</h2>
+                <p>Olá! Fico feliz em ter você por aqui. Explore meu trabalho e entre em contato.</p>
+            </div>
+        </section>
+
+        <!-- Seção Trabalhos -->
+        <section id="trabalhos" class="content-section">
+            <div class="container">
+                <h2>Meus Trabalhos</h2>
+                <div class="gallery">
+                    <!-- Substitua as imagens abaixo pelas suas fotos! -->
+                    <img src="https://via.placeholder.com/300x200/cccccc/ffffff?text=Trabalho+1" alt="Trabalho 1">
+                    <img src="https://via.placeholder.com/300x200/dddddd/ffffff?text=Trabalho+2" alt="Trabalho 2">
+                    <img src="https://via.placeholder.com/300x200/eeeeee/ffffff?text=Trabalho+3" alt="Trabalho 3">
+                    <img src="https://via.placeholder.com/300x200/cccccc/ffffff?text=Trabalho+4" alt="Trabalho 4">
+                    <img src="https://via.placeholder.com/300x200/dddddd/ffffff?text=Trabalho+5" alt="Trabalho 5">
+                    <img src="https://via.placeholder.com/300x200/eeeeee/ffffff?text=Trabalho+6" alt="Trabalho 6">
+                </div>
+                <p class="gallery-tip">Dica: Substitua as imagens acima pelas suas fotos reais de trabalho para personalizar sua galeria!</p>
+            </div>
+        </section>
+
+        <!-- Seção Instagram -->
+        <section id="instagram" class="content-section">
+            <div class="container">
+                <h2>Meu Instagram</h2>
+                <p>Confira mais do meu trabalho e dia a dia no Instagram:</p>
+                <a href="https://instagram.com/raixx_xx1" target="_blank" class="btn instagram-btn">
+                    <i class="fab fa-instagram"></i> @raixx_xx1
+                </a>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section id="sobre-mim" class="content-section">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p>Me chamo Raí Souza da Silva, tenho 21 anos e sou de Pernambuco, Serrambi.</p>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="content-section">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Gostou do que viu? Vamos conversar!</p>
+                <div class="contact-buttons">
+                    <a href="https://wa.me/5581993195753" target="_blank" class="btn whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Enviar WhatsApp
+                    </a>
+                    <a href="https://instagram.com/raixx_xx1" target="_blank" class="btn instagram-btn">
+                        <i class="fab fa-instagram"></i> Meu Instagram
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>content://com.android.externalstorage.documents/tree/primary%3ASITE::primary:SITE
+        <div class="container">
+            <p>&copy; 2026 raixx_xx1. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
